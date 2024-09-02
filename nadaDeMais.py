@@ -6,7 +6,7 @@ def lol():
     screen_width, screen_height = pyautogui.size()
 
     while True:
-        interval = random.uniform(3, 30.0)
+        interval = random.uniform(30, 120)
         typeMove = random.randint(0, 1)
         
         time.sleep(interval)
